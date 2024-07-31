@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 14px;
+    
 }
 
 nav {
@@ -22,21 +23,35 @@ nav  li {
 
 main {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color:rgb(100, 100, 100);
     color: aliceblue;
 }
 .introduction {
-    display: block !important;
-    padding: 2em 6em;
+    display: flex;
+    padding: 3em 3em;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+    margin: 3em;
+    background-color: rgb(81, 3, 3);
+}
+.gallery img{
+    width: 500px;
+    height: 400px;
 }
 
 .price-list{  
     display: flex;
-    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 3em;
     padding: 1em;
     background-color: rgb(62, 38, 54);
@@ -46,7 +61,7 @@ main {
 
 footer{
     display: flex;
-    align-content: end;
+    align-content: center;
     background-color: sienna;
     max-width: 1500px !important;
     max-height: 1000px !important;
