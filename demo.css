@@ -31,6 +31,7 @@ main {
     padding: 2em 6em;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
 }
 
 .price-list{  
@@ -51,3 +52,4 @@ footer{
     max-height: 1000px !important;
     text-align: center;
 }
+
