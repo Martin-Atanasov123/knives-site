@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 14px;
-    
+    max-width: 1920px;
+    max-height: 1080px;
 }
 
 nav {
@@ -43,12 +44,17 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 1em;
+    padding: 5em;
     margin: 3em;
+    border: 1em solid black;
     background-color: rgb(81, 3, 3);
 }
-.gallery img{
+.gallery>img:nth-child(1){
     width: 500px;
+    height: 400px;
+}
+.gallery>img:nth-child(2){
+    width: 400px;
     height: 400px;
 }
 
