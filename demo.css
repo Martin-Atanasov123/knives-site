@@ -27,6 +27,7 @@ nav  li {
 
 
 main {
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -38,6 +39,8 @@ main {
     padding: 3em 3em;
     justify-content: center;
     align-items: center;
+    border: 10px solid black;
+
 }
 
 .gallery {
@@ -46,6 +49,7 @@ main {
     justify-content: center;
     padding: 5em;
     margin: 3em;
+    border-radius: 35px;
     border: 1em solid black;
     background-color: rgb(81, 3, 3);
 }
@@ -53,28 +57,41 @@ main {
     width: 500px;
     height: 400px;
 }
-.gallery>img:nth-child(2){
-    width: 400px;
+#img2{
+    width: 600px;
     height: 400px;
+    border: 1em solid black;
+
 }
 
 .price-list{  
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-shrink: 1;
+    padding: 2em;
     margin: 3em;
-    padding: 1em;
     background-color: rgb(62, 38, 54);
 }
-
+.price-list p{
+    display: flex;
+    flex-shrink: 1;
+    padding: 1em;
+    background-color: rgb(110, 62, 94);
+    border: 1px solid black;
+}
 
 
 footer{
     display: flex;
-    align-content: center;
-    background-color: sienna;
-    max-width: 1500px !important;
-    max-height: 1000px !important;
+    flex-wrap: wrap;
+    width: 100%;
+    flex: 1 1 0 ;
+    background-color: rgb(92, 30, 2);
     text-align: center;
+    flex-direction: column;
 }
-
+footer p{
+    flex: 1 0 0 ;
+    font-size: large;
+    padding: 5px;
+}
