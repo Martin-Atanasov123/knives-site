@@ -56,25 +56,26 @@ main {
 .gallery>img:nth-child(1){
     width: 500px;
     height: 400px;
+    border: 10px solid black;
 }
 #img2{
+    margin-left: 2em;
     width: 600px;
     height: 400px;
-    border: 1em solid black;
-
+    border: 10px solid black;
 }
 
 .price-list{  
     display: flex;
+    flex: 1 0 1 ;
     flex-wrap: wrap;
-    flex-shrink: 1;
-    padding: 2em;
-    margin: 3em;
+    justify-content: center;
+    padding: 1em;
+    margin: 1em;
     background-color: rgb(62, 38, 54);
 }
 .price-list p{
     display: flex;
-    flex-shrink: 1;
     padding: 1em;
     background-color: rgb(110, 62, 94);
     border: 1px solid black;
