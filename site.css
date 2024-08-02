@@ -27,7 +27,10 @@ nav  li {
 
 
 main {
-    
+    background-image: url(/nsamor.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
