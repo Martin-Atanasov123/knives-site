@@ -29,13 +29,14 @@ nav  li {
 main {
     background-image: url(/nsamor.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; ;
     background-size: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background-color:rgb(100, 100, 100);
     color: aliceblue;
+    padding-bottom: 2em;
 }
 .introduction {
     display: flex;
@@ -43,7 +44,7 @@ main {
     justify-content: center;
     align-items: center;
     background-color:rgb(43, 41, 41);
-    opacity: 70%;
+    opacity: 80%;
     border: 1px solid black;
 }
 
@@ -54,7 +55,7 @@ main {
     padding: 5em;
     margin: 3em;
     border-radius: 35px;
-    border: 1em solid black;
+    border: 1em solid rgb(0, 0, 0);
     background-color: rgb(81, 3, 3);
     
 }
@@ -115,7 +116,6 @@ footer p{
         padding: 0;
         box-sizing: border-box;
         font-size: 14px;
-        max-width: 1080px;
     }
 
     header{
@@ -128,7 +128,7 @@ footer p{
     main{
         align-items: center;
         justify-content: center;
-        flex-wrap: ;
+        flex-wrap: wrap;
     }
     
 
