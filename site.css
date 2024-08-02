@@ -83,14 +83,14 @@ img:hover {
     justify-content: center;
     padding: 1em;
     margin: 1em;
-    background-color: rgb(62, 38, 54);
+    background-color: rgb(69, 57, 65);
     border-radius: 35px;
 }
 .price-list p{
     display: flex;
     padding: 1em;
     border-radius: 25px;
-    background-color: rgb(110, 62, 94);
+    background-color: rgb(103, 6, 6);
 }
 
 
