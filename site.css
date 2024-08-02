@@ -42,7 +42,8 @@ main {
     padding: 3em 3em;
     justify-content: center;
     align-items: center;
-    background-color:rgb(42, 41, 41);
+    background-color:rgb(43, 41, 41);
+    opacity: 70%;
     border: 1px solid black;
 }
 
@@ -55,7 +56,14 @@ main {
     border-radius: 35px;
     border: 1em solid black;
     background-color: rgb(81, 3, 3);
+    
 }
+/* img{
+    opacity: 0.7;
+}
+img:hover {
+    opacity: 1;
+} */
 .gallery>img:nth-child(1){
     width: 500px;
     height: 400px;
@@ -67,6 +75,7 @@ main {
     height: 400px;
     border: 10px solid black;
 }
+
 
 .price-list{  
     display: flex;
