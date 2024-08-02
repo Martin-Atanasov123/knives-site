@@ -115,6 +115,7 @@ footer p{
         padding: 0;
         box-sizing: border-box;
         font-size: 14px;
+        max-width: 1080px;
     }
 
     header{
@@ -123,6 +124,11 @@ footer p{
         background-color: rgb(126, 6, 6);
         height: 5em;
         text-align: center;
+    }
+    main{
+        align-items: center;
+        justify-content: center;
+        flex-wrap: ;
     }
     
 
