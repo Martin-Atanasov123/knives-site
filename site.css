@@ -52,17 +52,17 @@ main {
     display: flex ;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 5em;
-    margin: 3em;
+    padding: 2em;
+    margin:1em ;
     border-radius: 35px;
-    border: 1em solid rgb(0, 0, 0);
-    background-color: rgb(81, 3, 3);
+    border: 1em solid rgb(55, 6, 6);
+    background-color: rgb(97, 20, 20);
     
 }
 
 img{
-    width: 600px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
     border: 10px solid black;
     margin: 1em;
 }
@@ -70,7 +70,6 @@ img{
 
 .price-list{  
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     padding: 1em;
     margin: 1em;
