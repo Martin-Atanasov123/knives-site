@@ -41,7 +41,7 @@ main {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 8em 6em;
+    padding: 3em 10em;
     justify-content: center;
     align-items: center;
     background-color:rgb(43, 41, 41);
@@ -49,9 +49,13 @@ main {
     border: 1px solid black;
 }
 .introduction h1{
-    font-size: 4em;
-    display: flex;
     font-size: 3em;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.introduction p{
+    font-size: 1.5em;
     color: white;
 }
 
