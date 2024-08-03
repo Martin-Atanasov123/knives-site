@@ -39,13 +39,20 @@ main {
     padding-bottom: 2em;
 }
 .introduction {
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     padding: 3em 3em;
     justify-content: center;
     align-items: center;
     background-color:rgb(43, 41, 41);
     opacity: 80%;
     border: 1px solid black;
+}
+.introduction h1{
+    display: flex;
+    font-size: 3em;
+    color: white;
 }
 
 .gallery {
@@ -60,9 +67,9 @@ main {
     
 }
 
-img{
-    width: 500px;
-    height: 300px;
+.gallery img{
+    width: 450px;
+    height: 350px;
     border: 10px solid black;
     margin: 1em;
 }
