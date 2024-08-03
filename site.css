@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 14px;
-    max-width: 1920px;
-    max-height: 1080px;
+
+
 }
 
 nav {
@@ -30,11 +30,10 @@ main {
     background-image: url(images/nsamor.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed; ;
-    background-size: 100%;
+    background-size: 100% 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color:rgb(100, 100, 100);
     color: aliceblue;
     padding-bottom: 2em;
 }
@@ -42,7 +41,7 @@ main {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 3em 3em;
+    padding: 8em 6em;
     justify-content: center;
     align-items: center;
     background-color:rgb(43, 41, 41);
@@ -50,8 +49,14 @@ main {
     border: 1px solid black;
 }
 .introduction h1{
+    font-size: 4em;
     display: flex;
     font-size: 3em;
+    color: white;
+}
+
+#h2_between{
+    font-size: 2em;
     color: white;
 }
 
@@ -68,25 +73,28 @@ main {
 }
 
 .gallery img{
+    border-radius: 1em;
     width: 450px;
     height: 350px;
-    border: 10px solid black;
+    border: 7px solid black;
     margin: 1em;
 }
 
-
 .price-list{  
     display: flex;
+    width: 100%;
     justify-content: center;
     padding: 1em;
     margin: 1em;
     background-color: rgb(69, 57, 65);
-    border-radius: 35px;
+    border-radius: 2em;
 }
-.price-list p{
+.price-list ul{
+    width: 100%;
     display: flex;
-    padding: 1em;
-    border-radius: 25px;
+    flex-direction: column;
+    padding: 4em;
+    border-radius: 1em;
     background-color: rgb(103, 6, 6);
 }
 
