@@ -116,6 +116,7 @@ footer{
     flex-wrap: wrap;
     width: 100%;
     flex: 1 1 0 ;
+    
     background-color: rgb(92, 30, 2);
     text-align: center;
     flex-direction: column;
