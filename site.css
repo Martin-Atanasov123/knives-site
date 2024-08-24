@@ -125,11 +125,11 @@ footer{
     flex-wrap: wrap;
     width: 100%;
     flex: 1 1 0 ;
-    opacity: 100%;
     background-color: rgb(43, 41, 41);
     text-align: center;
     flex-direction: column;
 }
+
 footer p{
     flex: 1 0 0 ;
     font-size: large;
