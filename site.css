@@ -30,9 +30,9 @@ nav  li {
     font-size: x-large;
 }
 nav ul li a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 main {
@@ -126,26 +126,4 @@ footer p{
     padding: 5px;
 }
 
-@media screen and (max-width: 1080px) {
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-size: 14px;
-    }
 
-    header{
-        align-items: center;
-        justify-content: center;
-        background-color: rgb(126, 6, 6);
-        height: 5em;
-        text-align: center;
-    }
-    main{
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    
-
-}
