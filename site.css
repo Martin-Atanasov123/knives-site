@@ -20,13 +20,20 @@ nav img{
     height: 50px;
     
 }
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
 nav  li {
     display: inline;
     margin: 1em ;
     font-size: x-large;
-    color: aliceblue;
 }
-
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
 
 main {
     background-image: url(images/nsamor.jpg);
