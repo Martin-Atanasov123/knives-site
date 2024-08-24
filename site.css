@@ -69,6 +69,8 @@ main {
 }
 
 #h2_between{
+    width: 100%;
+    text-align: center;
     font-size: 2em;
     color: white;
 }
@@ -95,8 +97,7 @@ main {
 
 .price-list{  
     display: flex;
-    width: 100%;
-    justify-content: center;
+    width: 60%;
     padding: 1em;
     margin: 1em;
     background-color: rgb(69, 57, 65);
@@ -109,6 +110,12 @@ main {
     padding: 4em;
     border-radius: 1em;
     background-color: rgb(103, 6, 6);
+    text-align: center;
+}
+.price-list ul p{
+    flex: 1 0 0 ;
+    font-size: large;
+    padding: 5px;
 }
 
 footer{
