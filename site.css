@@ -64,8 +64,11 @@ main {
 }
 
 .introduction p{
+    text-align:justify;
     font-size: 1.5em;
     color: white;
+    font-size: x-large;
+    margin-bottom: 2em;
 }
 
 #h2_between{
@@ -82,8 +85,8 @@ main {
     padding: 2em;
     margin:1em ;
     border-radius: 35px;
-    border: 1em solid rgb(55, 6, 6);
-    background-color: rgb(97, 20, 20);
+    border: 1em solid rgb(49, 10, 10);
+    background-color: rgba(121, 0, 0, 0.795);
     
 }
 
@@ -98,9 +101,8 @@ main {
 .price-list{  
     display: flex;
     width: 60%;
-    padding: 1em;
     margin: 1em;
-    background-color: rgb(69, 57, 65);
+    border: 1em solid rgb(49, 10, 10);
     border-radius: 2em;
 }
 .price-list ul{
