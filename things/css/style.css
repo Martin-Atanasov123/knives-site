@@ -31,7 +31,7 @@ nav  li {
     font-size: x-large;
 }
 nav ul li a {
-    color: rgb(255, 255, 255);
+    color: #131212;
     text-decoration: none;
     font-size: 24px;
 }
@@ -45,7 +45,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    color: rgb(0, 0, 0);
+    color: #3E3330;
     padding-bottom: 2em;
 }
 .introduction {
@@ -55,22 +55,23 @@ main {
     padding: 3em 10em;
     justify-content: center;
     align-items: center;
-    background-color:rgb(245, 202, 138);
+    background-color:#f5ca8a;
     opacity: 90%;
     border: 5px solid #A1561E;
+    border-end-start-radius: 1em;
     border-end-end-radius: 1em;
     margin-bottom: 1em;
 }
 .introduction h1{
     font-size: 3em;
-    color: rgb(0, 0, 0);
+    color: #3E3330;
     margin-bottom: 1em;
 }
 
 .introduction p{
     text-align:justify;
     font-size: 1.5em;
-    color: rgb(0, 0, 0);
+    color: #3E3330;
     font-size: x-large;
     margin-bottom: 1.5em;
 }
@@ -79,7 +80,7 @@ main {
     width: 100%;
     text-align: center;
     font-size: 2em;
-    color: rgb(29, 24, 24);
+    color: #3E3330;
     padding: 10px;
 }
 
@@ -98,7 +99,7 @@ main {
     border-radius: 1em;
     width: 450px;
     height: 350px;
-    border: 7px solid #3E3330;
+    border: 7px solid #f1ac6b;
     margin: 1em;
 }
 
@@ -115,7 +116,8 @@ main {
     flex-direction: column;
     padding: 2em;
     border-radius: 1em;
-    background-color: #A1561E;
+    background-color:rgb(245, 202, 138);
+    
     text-align: center;
 }
 .price-list ul p{
@@ -129,7 +131,7 @@ footer{
     flex-wrap: wrap;
     width: 100%;
     flex: 1 1 0 ;
-    background-color: #3E3330;
+    background-color:#A1561E;
     text-align: center;
     flex-direction: column;
 }
@@ -138,7 +140,7 @@ footer p{
     flex: 1 0 0 ;
     font-size: large;
     padding: 6px;
-    color: solid black;
+    color: solid #3E3330;
 }
 
 
