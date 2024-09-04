@@ -37,10 +37,8 @@ nav ul li a {
 }
 
 main {
-    /* background-image: url(/things/images/back-ground.jpg); */
     background-color: #D9904D;
     background-repeat: no-repeat;
-    background-attachment: fixed; ;
     background-size: 100% 100%;
     display: flex;
     flex-wrap: wrap;
@@ -56,10 +54,10 @@ main {
     justify-content: center;
     align-items: center;
     background-color:#f5ca8a;
-    opacity: 90%;
+    opacity: 80%;
     border: 5px solid #A1561E;
-    border-end-start-radius: 1em;
-    border-end-end-radius: 1em;
+    border-end-start-radius: 10em;
+    border-end-end-radius: 10em;
     margin-bottom: 1em;
 }
 .introduction h1{
