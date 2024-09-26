@@ -114,7 +114,7 @@ main {
     display: flex;
     width: 60%;
     margin: 1em;
-    border: 1em solid #C07332;
+    border: 1em solid #733635;
     border-radius: 2em;
 }
 .price-list ul{
@@ -123,10 +123,12 @@ main {
     flex-direction: column;
     padding: 2em;
     border-radius: 1em;
-    background-color:rgb(245, 202, 138);
+    background-color:#905D5D;
     text-align: center;
 }
 .price-list ul p{
+    color: #eccfcf;
+
     flex: 1 0 0 ;
     font-size: x-large;
     padding: 5px;
@@ -134,6 +136,7 @@ main {
 
 footer{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     flex: 1 1 0 ;
@@ -143,6 +146,8 @@ footer{
 }
 
 footer p{
+    display: flex;
+    flex-direction: row;
     flex: 1 0 0 ;
     font-size: large;
     padding: 6px;
