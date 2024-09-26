@@ -9,7 +9,7 @@
 
 
 nav {
-    background-color:#A1561E;
+    background-color:#db2a20;
     height: 4em;
     display: flex;
     font-size: large;
@@ -19,7 +19,17 @@ nav {
 nav img{
     width: 50px;
     height: 50px;
-    
+    background-color: rgba(238, 0, 0, 0.432);
+    border-radius: 2em;
+}
+nav >a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.637);
+    border-radius: 2em;
 }
 nav ul{
     list-style-type: none;
@@ -31,13 +41,13 @@ nav  li {
     font-size: x-large;
 }
 nav ul li a {
-    color: #131212;
+    color: #F3F3F3;
     text-decoration: none;
     font-size: 24px;
 }
 
 main {
-    background-color: #D9904D;
+    background-color: #311411;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
@@ -53,23 +63,22 @@ main {
     padding: 3em 10em;
     justify-content: center;
     align-items: center;
-    background-color:#f5ca8a;
-    opacity: 80%;
-    border: 5px solid #A1561E;
+    background-color:#905D5D;
+    border: 5px solid #733635;
     border-end-start-radius: 10em;
     border-end-end-radius: 10em;
     margin-bottom: 1em;
 }
 .introduction h1{
     font-size: 4em;
-    color: #251C1B;
+    color: #f5eaea;
     margin-bottom: 1em;
 }
 
 .introduction p{
     text-align:justify;
     font-size: 1.5em;
-    color: #3E3330;
+    color: #eccfcf;
     font-size: x-large;
     margin-bottom: 1.5em;
 }
@@ -78,7 +87,7 @@ main {
     width: 100%;
     text-align: center;
     font-size: 2em;
-    color: #251C1B;
+    color: #F3F3F3;
     padding: 10px;
 }
 
@@ -89,15 +98,15 @@ main {
     padding: 2em;
     margin:1em ;
     border-radius: 35px;
-    border: 1em solid #C07332;
-    background-color:rgb(245, 202, 138);
+    border: 1em solid #733635;
+    background-color:#905D5D;
 }
 
 .gallery img{
     border-radius: 1em;
     width: 450px;
     height: 350px;
-    border: 7px solid #f1ac6b;
+    border: 7px solid #BC8F8F;
     margin: 1em;
 }
 
@@ -128,7 +137,7 @@ footer{
     flex-wrap: wrap;
     width: 100%;
     flex: 1 1 0 ;
-    background-color:#A1561E;
+    background-color:#722F37;
     text-align: center;
     flex-direction: column;
 }
