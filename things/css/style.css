@@ -14,7 +14,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     height: 4em;
-    background-color:#d6332a;
+    background-color:#CC3333;
 }
 nav img{
     width: 50px;
@@ -47,7 +47,7 @@ nav ul li a {
 }
 
 main {
-    background-color: #311411;
+    background-color:#bb6b66fd;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
@@ -65,6 +65,7 @@ main {
     align-items: center;
     background-color:#905D5D;
     border: 5px solid #733635;
+    border-top: 2px solid ;
     border-end-start-radius: 10em;
     border-end-end-radius: 10em;
     margin-bottom: 1em;
