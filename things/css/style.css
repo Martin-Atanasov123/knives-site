@@ -9,12 +9,12 @@
 
 
 nav {
-    background-color:#db2a20;
-    height: 4em;
     display: flex;
     font-size: large;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    height: 4em;
+    background-color:#db2a20;
 }
 nav img{
     width: 50px;
@@ -32,11 +32,11 @@ nav >a{
     border-radius: 2em;
 }
 nav ul{
+    display: flex;
     list-style-type: none;
     text-align: center;
 }
 nav  li {
-    display: inline;
     margin: 1em ;
     font-size: x-large;
 }
