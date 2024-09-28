@@ -20,7 +20,7 @@ nav img{
     width: 50px;
     height: 50px;
     background-color: rgba(238, 0, 0, 0.432);
-    border-radius: 1em;
+    border-radius: 2em;
 }
 nav >a{
     display: flex;
