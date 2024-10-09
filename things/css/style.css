@@ -50,13 +50,10 @@ nav ul li a {
 }
 
 main {
-    /* background-color:#bb6b66fd; */
-    background: linear-gradient(0deg, #d1adad 60%, #f50000 92%);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background: linear-gradient(0deg, #d1adad 60%, #f50000 92%);
     color: #3E3330;
     padding-bottom: 2em;
 }
