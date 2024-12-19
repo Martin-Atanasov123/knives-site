@@ -66,11 +66,15 @@ main {
     justify-content: center;
     align-items: center;
     background-color:#905D5D;
-    border: 5px solid #733635;
+
     border-top: 2px solid ;
-    border-end-start-radius: 10em;
-    border-end-end-radius: 10em;
+    border-end-start-radius: 5em;
+    border-end-end-radius: 5em;
     margin-bottom: 1em;
+    background-image: url(/things/images/main\ cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .introduction h1{
     font-size:5em;
@@ -82,7 +86,7 @@ main {
     text-align:justify;
     font-size: 1.5em;
     color: #eccfcf;
-    background-color:#c42d2d;
+    background-color:#8d7676a6;
     border: 5px solid #733635;
     padding: 1em;
     border-radius: 2em;
@@ -91,8 +95,6 @@ main {
 }
 
 #h2_between{
-    width: 100%;
-    text-align: center;
     font-size: 2em;
     color: #F3F3F3;
     padding: 10px;
@@ -100,19 +102,37 @@ main {
 
 .gallery {
     display: flex ;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     padding: 2em;
     margin:1em ;
     border-radius: 35px;
     border: 1em solid #733635;
     background-color:#905D5D;
 }
+.gallery p{
+    font-size: large;
+    padding: 1em;
+    color: #ddbdbd;
+}
+
+.gallery button{
+    font-size: x-large;
+    background-color: #733635;
+    justify-self: center;
+    align-self: flex-end;
+    color: #F3F3F3;
+    height: 1em;
+    padding: 1em 2em;
+    border-radius: 1em;
+}
 
 .gallery img{
+    flex-direction: row;
     border-radius: 1em;
-    width: 450px;
-    height: 350px;
+    width: 350px;
+    height: 250px;
     border: 7px solid #BC8F8F;
     margin: 1em;
 }
@@ -143,11 +163,11 @@ main {
 
 footer{
     display: flex;
-
     flex-wrap: wrap;
     text-align: center;
-    width: 100%;
-    height: 10vh;
+    flex-direction: column;
+    height: auto !important;
+    padding: 3em;
     flex: 1 1 0 ;
     background-color:#443c3c;
     justify-content: space-evenly;
@@ -160,7 +180,7 @@ footer p{
 }
 footer a{
     font-size: large;
-    color: #720707e7;
+    color: #410909e7;
     text-decoration: none;
 }
 
