@@ -51,12 +51,7 @@ nav ul li a {
 }
 
 main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background: linear-gradient(0deg, #e6dede 60%, #dbc6c6 92%);
-    color: #3E3330;
-    padding-bottom: 2em;
+    background-color: #a5a5a5;
 }
 .introduction {
     width: 100%;
@@ -65,9 +60,7 @@ main {
     padding: 3em 10em;
     justify-content: center;
     align-items: center;
-    background-color:#905D5D;
-
-    border-top: 2px solid ;
+    border-top: 5px solid ;
     border-end-start-radius: 5em;
     border-end-end-radius: 5em;
     margin-bottom: 1em;
@@ -101,6 +94,7 @@ main {
 }
 
 .gallery {
+    
     display: flex ;
     justify-content: center;
     flex-direction: row;
@@ -139,26 +133,20 @@ main {
 
 .price-list{  
     display: flex;
-    width: 60%;
-    margin: 1em;
+    flex-direction: column;
+    width: 90%;
+    padding: 1em;
+
+    background-color: #353535;
     border: 1em solid #733635;
     border-radius: 2em;
+    color: #dbc6c6;
 }
-.price-list ul{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 2em;
-    border-radius: 1em;
-    background-color:#905D5D;
-    text-align: center;
-}
-.price-list ul p{
-    color: #eccfcf;
 
-    flex: 1 0 0 ;
+.price-list p{
     font-size: x-large;
-    padding: 5px;
+    color: #F3F3F3;
+    padding: 1em;
 }
 
 footer{
@@ -166,7 +154,6 @@ footer{
     flex-wrap: wrap;
     text-align: center;
     flex-direction: column;
-    height: auto !important;
     padding: 3em;
     flex: 1 1 0 ;
     background-color:#443c3c;
