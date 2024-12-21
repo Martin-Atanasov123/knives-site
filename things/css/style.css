@@ -137,8 +137,6 @@ main {
     color: #F3F3F3;
 }
 .gallery img{
-    flex-wrap: wrap;
-    flex-direction: row;
     border-radius: 1em;
     width: 350px;
     height: 250px;
