@@ -32,9 +32,9 @@ nav >a{
 #nav_icon{
     rotate: y 180deg;
 }
+
 #language-toggle{
     display: flex;
-
     align-self: center;
     justify-content: center;
     background-color: #a5a5a5;
