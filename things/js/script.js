@@ -13,3 +13,33 @@ document.querySelectorAll('nav a').forEach(anchor => {
         });
     });
 });
+
+
+const translations = {
+    bg: {
+        title: "Добре дошли!",
+        description: "Това е примерен текст на български.",
+        button: "Смени езика"
+    },
+    en: {
+        title: "Welcome!",
+        description: "This is a sample text in English.",
+        button: "Change Language"
+    }
+};
+
+let currentLanguage = "bg";
+
+const titleElement = document.getElementById("title");
+const descriptionElement = document.getElementById("description");
+const buttonElement = document.getElementById("language-toggle");
+
+buttonElement.addEventListener("click", () => {
+    // Смени езика
+    currentLanguage = currentLanguage === "bg" ? "en" : "bg";
+
+    // Актуализирай текста
+    titleElement.textContent = translations[currentLanguage].title;
+    descriptionElement.textContent = translations[currentLanguage].description;
+    buttonElement.textContent = translations[currentLanguage].button;
+});
