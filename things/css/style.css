@@ -85,46 +85,59 @@ main {
     margin-bottom: 1.5em;
 }
 
-#h2_between{
-    font-size: 2em;
-    color: #F3F3F3;
-    padding: 10px;
-}
+
 
 .gallery {
-    
     display: flex ;
     justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+
     padding: 2em;
     margin:1em ;
     border-radius: 35px;
     border: 1em solid #733635;
     background-color:#905D5D;
 }
+
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.column-container button {
+    align-self: center; 
+}
+
+.gallery h2{
+    font-size: 3em;
+
+    color: #F3F3F3;
+    padding: 1em;
+}
 .gallery p{
+
     font-size: large;
     padding: 1em;
     color: #ddbdbd;
 }
 
 .gallery button{
-    font-size: x-large;
+
     background-color: #733635;
-    justify-self: center;
-    align-self: flex-end;
-    color: #F3F3F3;
-    height: 1em;
-    padding: 1em 2em;
-    border-radius: 1em;
+    border-radius: 2em;
 }
 .gallery button a{
+    display: flex;
     text-decoration: none;
-    color: #F3F3F3;
     justify-self: center;
+    font-size: large;
+    padding: 1em 3em;
+    
+    color: #F3F3F3;
 }
 .gallery img{
+    flex-wrap: wrap;
     flex-direction: row;
     border-radius: 1em;
     width: 350px;
@@ -133,6 +146,12 @@ main {
     margin: 1em;
 }
 
+
+
+
+
+
+/* Price */
 .price-list{  
     display: flex;
     flex-direction: column;
