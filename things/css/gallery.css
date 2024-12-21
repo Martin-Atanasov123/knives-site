@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+nav {
+    display: flex;
+    font-size: large;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 3em;
+    background-color:#443c3c;
+}
+nav img{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(238, 0, 0, 0.432);
+    border-radius: 2em;
+}
+nav >a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 2.5em;
+}
+
+#nav_icon{
+    rotate: y 180deg;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+nav  li {
+    margin: 1em ;
+    font-size: x-large;
+}
+nav ul li a {
+    color: #F3F3F3;
+    text-decoration: none;
+    font-size: 24px;
+}
