@@ -29,9 +29,7 @@ nav >a{
     border-radius: 2.5em;
 }
 
-#nav_icon{
-    rotate: y 180deg;
-}
+
 
 #language-toggle{
     display: flex;

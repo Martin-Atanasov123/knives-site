@@ -22,7 +22,7 @@ const translations = {
         // cspell:disable-next-line
         title: "Здравейте",
         // cspell:disable-next-line
-        description: "Ние сме професионални заточвачи...",
+        description: "Ние сме професионални точила, които се грижат за вашите инструменти и ножове с внимание и прецизност.С дългогодишен опит в занаята, нашата мисия е да предоставим на всеки клиент перфектно заточени инструменти, които работят като нови.Независимо дали става дума за домакински ножове, професионални инструменти или специализирани остриета, можете да ни се доверите. Използваме само най-висококачествените методи иматериали за осигуряване на дълготрайни и надеждни резултати.",
         // cspell:disable-next-line
         galleryTitle: "Галерия",
         galleryDescription: "Lorem ipsum...",
@@ -35,11 +35,11 @@ const translations = {
     },
     en: {
         title: "Hello",
-        description: "We are professional sharpeners...",
+        description: "We are professional sharpeners who take care of your tools and knives with attention and precision.With many years of experience in the craft, our mission is to provide every customer with perfectly sharpened tools that work like new.Whether it’s household knives, professional tools, or specialized blades, you can trust us. We use only the highest quality methods and materials to ensure long-lasting and reliable results.",
         galleryTitle: "Gallery",
         galleryDescription: "Lorem ipsum...",
         priceTitle: "Price List",
-        priceDescription: "Criteria for evaluating...",
+        priceDescription: "Criteria for evaluating the restoration of the item. For each knife, they are personal and depend on the condition of the knife itself and the customer's requests, and subsequently it is calculated how much everything will cost.",
         button: "Change Language"
     }
 };
