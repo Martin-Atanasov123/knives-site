@@ -166,6 +166,7 @@ main {
 .price-list{  
     display: flex;
     flex-direction: column;
+    justify-self: center;
     width: 90%;
     padding: 1em;
     margin: 1em;
@@ -234,14 +235,12 @@ footer a{
     .gallery button{
         padding: 1em;
     }
-    .price-list{
-        padding: 1em;
-    }
+
     footer{
-        padding: 1em;
+        padding: 1.5em;
     }
     footer p{
-        font-size: medium;
+        text-align: left;
     }
     footer a{
         font-size: medium;
