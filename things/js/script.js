@@ -29,7 +29,7 @@ const translations = {
         // cspell:disable-next-line
         priceTitle: "Ценоразпис",
         // cspell:disable-next-line
-        priceDescription: "Критерии за оценяване...",
+        priceDescription: "Критерии за оценка на реставрацията на предмета. За всеки нож те са персонални и зависят от състоянието на самия нож и заявките на клиента, като впоследствие се изчислява колко ще струва всичко.",
         // cspell:disable-next-line
         button: "Смени езика"
     },
