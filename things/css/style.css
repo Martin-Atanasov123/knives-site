@@ -98,13 +98,15 @@ main {
 
 .gallery {
     display: flex ;
+    flex-wrap: wrap;
     justify-content: center;
-
-    padding: 2em;
-    margin:1em ;
+    justify-self: center;
     border-radius: 35px;
     border: 1em solid #733635;
     background-color:#905D5D;
+    width: 90%;
+    padding: 2em;
+    margin:1em ;
 }
 
 
@@ -116,6 +118,7 @@ main {
 
 .column-container button {
     align-self: center; 
+
 }
 
 .gallery h2{
@@ -125,7 +128,7 @@ main {
     padding: 1em;
 }
 .gallery p{
-
+    width: 60%;
     font-size: large;
     padding: 1em;
     color: #ddbdbd;
@@ -146,11 +149,13 @@ main {
     color: #F3F3F3;
 }
 .gallery img{
-    border-radius: 1em;
+    align-self: center;
+    flex-wrap: wrap;
     width: 350px;
     height: 250px;
-    border: 7px solid #BC8F8F;
     margin: 1em;
+    border-radius: 1em;
+    border: 7px solid #BC8F8F;
 }
 
 
@@ -162,9 +167,10 @@ main {
 .price-list{  
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     padding: 1em;
-
+    margin: 1em;
+    justify-content: center;
     background-color: #353535;
     border: 1em solid #733635;
     border-radius: 2em;
