@@ -36,6 +36,7 @@ nav >a{
     display: flex;
     align-self: center;
     font-weight: bold;
+    
     font-size: large;
     padding: 9px;
     border-radius: 2em;
