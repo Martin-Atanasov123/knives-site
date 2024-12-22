@@ -12,7 +12,7 @@ nav {
     justify-content: space-evenly;
     width: 100%;
     align-items: center;
-    height: 3em;
+    height: 3.5em;
     background-color:#443c3c;
 }
 nav img{
@@ -35,12 +35,11 @@ nav >a{
 #language-toggle{
     display: flex;
     align-self: center;
-    justify-content: center;
-    background-color: #a5a5a5;
-    width: auto !important;
-    padding: 6px;
+    font-weight: bold;
     font-size: large;
+    padding: 9px;
     border-radius: 2em;
+    background-color: #a5a5a5;
 }
 
 nav ul{
