@@ -47,7 +47,17 @@ nav ul li a {
     font-size: 24px;
 }
 
+#title{
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b3333;
+    height: 10em;
+    font-size: 2em;
+    color: #F3F3F3;
+    
+}
 
 .before{
     display: flex;
