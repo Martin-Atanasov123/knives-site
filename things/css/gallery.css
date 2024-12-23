@@ -46,3 +46,30 @@ nav ul li a {
     text-decoration: none;
     font-size: 24px;
 }
+
+
+
+.before{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b3333;
+}
+.before img{
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.after{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b3333;
+}
+.after img{
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+}
