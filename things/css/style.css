@@ -69,8 +69,7 @@ main {
     justify-content: center;
     align-items: center;
     border-top: 5px solid ;
-    border-end-start-radius: 5em;
-    border-end-end-radius: 5em;
+    border-bottom: 2px solid ;
     margin-bottom: 1em;
     background-image: url(/things/images/main\ cover.jpg);
     background-repeat: no-repeat;
