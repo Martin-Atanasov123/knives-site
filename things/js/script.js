@@ -27,7 +27,7 @@ const translations = {
         galleryTitle: "Галерия",
         galleryDescription: "Това е малка част от примерите за някои от случаите, които имахме.",
         // cspell:disable-next-line
-        priceTitle: "Ценоразпис",
+        priceTitle: "Ценa",
         // cspell:disable-next-line
         priceDescription: "Критерии за оценка на реставрацията на предмета. За всеки нож те са персонални и зависят от състоянието на самия нож и заявките на клиента, като впоследствие се изчислява колко ще струва всичко.",
         // cspell:disable-next-line
@@ -38,7 +38,7 @@ const translations = {
         description: "We are professional sharpeners who take care of your tools and knives with attention and precision.With many years of experience in the craft, our mission is to provide every customer with perfectly sharpened tools that work like new.Whether it’s household knives, professional tools, or specialized blades, you can trust us. We use only the highest quality methods and materials to ensure long-lasting and reliable results.",
         galleryTitle: "Gallery",
         galleryDescription: "This is a little part of the examples of some of the cases that we had.",
-        priceTitle: "Price List",
+        priceTitle: "Price",
         priceDescription: "Criteria for evaluating the restoration of the item. For each knife, they are personal and depend on the condition of the knife itself and the customer's requests, and subsequently it is calculated how much everything will cost.",
         button: "Change Language"
     }

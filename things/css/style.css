@@ -131,6 +131,7 @@ main {
     font-size: large;
     padding: 1em;
     color: #ddbdbd;
+    /* color: #d1caca; */
 }
 
 .gallery button{
@@ -160,8 +161,6 @@ main {
 
 
 
-
-
 /* Price */
 .price-list{  
     display: flex;
@@ -176,10 +175,15 @@ main {
     border-radius: 2em;
     color: #dbc6c6;
 }
-
+.price-list h2{
+    font-size: 3em;
+    align-self: center;
+    color: #F3F3F3;
+    padding: 1em;
+}
 .price-list p{
     font-size: x-large;
-    color: #F3F3F3;
+    color: #d1caca;
     padding: 1em;
 }
 
@@ -223,7 +227,7 @@ footer a{
         flex-direction: column;
     }
     .gallery img{
-        width: 100%;
+        width: 60%;
         height: 100%;
     }
     .gallery p{
