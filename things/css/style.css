@@ -7,16 +7,17 @@
 }
 main {
     background-color: #a5a5a5;
-    
+    height: auto;
 }
+
 
 nav {
     display: flex;
+
     font-size: large;
     justify-content: space-evenly;
-    width: 100%;
     align-items: center;
-    height: 3.5em;
+
     background-color:#443c3c;
 }
 nav img{
@@ -47,12 +48,15 @@ nav >a{
     background-color: #a5a5a5;
 }
 
+
 nav ul{
     display: flex;
     list-style-type: none;
     text-align: center;
+    flex-wrap: wrap;
 }
 nav  li {
+
     margin: 1em ;
     font-size: x-large;
 }
@@ -224,7 +228,7 @@ nav ul li a {
 .gallery img{
     align-self: center;
     flex-wrap: wrap;
-    width: 350px;
+    width: 20%;
     height: 250px;
     margin: 1em;
     border-radius: 1em;
