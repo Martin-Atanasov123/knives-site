@@ -163,24 +163,23 @@ nav ul li a {
     flex-direction: column;
 }
 .services-info h3{
-    font-size: 1.em;
+    font-size: 1.5em;
     color: #F3F3F3;
     text-align: center;
-
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    border: 1px solid#d1caca;
 }
 .services-info img{
     display: flex;
     align-self: center;
     height: 200px;
-
     padding: 1em;
-    border-left: 7px solid #BC8F8F;
+
 
 }
-#last{
-    
-    border-right: 7px solid #BC8F8F;
-}
+
 
 
 
