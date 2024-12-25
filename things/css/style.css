@@ -118,7 +118,20 @@ main {
     color: #d1caca;
     padding: 1em;
 }
+.services-images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+.services img{
+    display: flex;
+    align-self: center;
+    height: 200px;
+    margin: 1em;
+    border-radius: 1em;
+    border: 7px solid #BC8F8F;
+}
 
 
 
