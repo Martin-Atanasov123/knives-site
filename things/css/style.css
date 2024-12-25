@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 17px;
 }
-
+main {
+    background-color: #a5a5a5;
+}
 
 nav {
     display: flex;
@@ -58,9 +60,7 @@ nav ul li a {
     font-size: 24px;
 }
 
-main {
-    background-color: #a5a5a5;
-}
+
 .introduction {
     width: 100%;
     display: flex;
@@ -94,6 +94,21 @@ main {
     border-top: 5px solid #fff4f1;
     font-size: x-large;
     margin-bottom: 1.5em;
+}
+
+
+.about-us{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin: 1em;
+    background-color: #353535;
+    border: 1em solid #733635;
+    border-radius: 2em;
+    color: #dbc6c6;
 }
 
 .services{
