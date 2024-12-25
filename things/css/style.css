@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 17px;
-    
+
 }
+
 main {
     background-color: #a5a5a5;
     height: auto;
@@ -17,15 +18,17 @@ nav {
     font-size: large;
     justify-content: space-evenly;
     align-items: center;
-    background-color:#443c3c;
+    background-color: #443c3c;
 }
-nav img{
+
+nav img {
     width: 50px;
     height: 50px;
     background-color: rgba(238, 0, 0, 0.432);
     border-radius: 2em;
 }
-nav >a{
+
+nav>a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,11 +39,11 @@ nav >a{
 
 
 
-#language-toggle{
+#language-toggle {
     display: flex;
     align-self: center;
     font-weight: bold;
-    
+
     font-size: large;
     padding: 9px;
     border-radius: 2em;
@@ -48,17 +51,19 @@ nav >a{
 }
 
 
-nav ul{
+nav ul {
     display: flex;
     list-style-type: none;
     text-align: center;
     flex-wrap: wrap;
 }
-nav  li {
 
-    margin: 1em ;
+nav li {
+
+    margin: 1em;
     font-size: x-large;
 }
+
 nav ul li a {
     color: #F3F3F3;
     text-decoration: none;
@@ -73,22 +78,23 @@ nav ul li a {
     padding: 3em 10em;
     justify-content: center;
     align-items: center;
-    border-top: 5px solid ;
-    border-bottom: 2px solid ;
+    border-top: 5px solid;
+    border-bottom: 2px solid;
     margin-bottom: 1em;
     background-image: url(/things/images/main\ cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-.introduction h1{
-    font-size:4em;
+
+.introduction h1 {
+    font-size: 4em;
     color: #f5eaea;
     margin: 3em;
 }
 
-.introduction p{
-    text-align:justify;
+.introduction p {
+    text-align: justify;
     font-size: 1.5em;
     color: #e2dbdb;
     /* background-color:#8d7676a6; */
@@ -102,7 +108,7 @@ nav ul li a {
 }
 
 
-.about-us{
+.about-us {
     display: flex;
     width: 50%;
     flex-direction: column;
@@ -115,19 +121,21 @@ nav ul li a {
     border-radius: 2em;
     color: #dbc6c6;
 }
-.about-us h2{
+
+.about-us h2 {
     font-size: 3em;
     align-self: center;
     color: #F3F3F3;
     padding: 1em;
 }
-.about-us p{
+
+.about-us p {
     font-size: x-large;
     color: #d1caca;
     padding: 1em;
 }
 
-.services{
+.services {
     display: flex;
 
     justify-content: center;
@@ -140,31 +148,35 @@ nav ul li a {
     border-radius: 2em;
     color: #dbc6c6;
 }
-.services h2{
+
+.services h2 {
     font-size: 3em;
     align-self: center;
     color: #F3F3F3;
     padding: 1em;
 }
-.services p{
+
+.services p {
     font-size: x-large;
     color: #d1caca;
     padding: 1em;
 }
 
 
-.services-images{
+.services-images {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.services-info{
+
+.services-info {
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column;
 }
-.services-info h3{
+
+.services-info h3 {
     font-size: 1.5em;
     color: #F3F3F3;
     text-align: center;
@@ -174,7 +186,8 @@ nav ul li a {
     border-radius: 1em;
     border: 1px solid#d1caca;
 }
-.services-info img{
+
+.services-info img {
     display: flex;
     align-self: center;
     height: 200px;
@@ -189,36 +202,37 @@ nav ul li a {
 
 
 .gallery {
-    display: flex ;
+    display: flex;
     justify-self: center;
     border-radius: 35px;
     border: 1em solid #733635;
-    background-color:#905D5D;
+    background-color: #905D5D;
     width: 90%;
     padding: 2em;
-    margin:1em ;
+    margin: 1em;
 }
 
 
 .column-container {
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    
+    align-items: center;
+
 }
 
 .column-container button {
-    align-self: center; 
+    align-self: center;
 
 }
 
-.gallery h2{
+.gallery h2 {
     font-size: 3em;
 
     color: #F3F3F3;
     padding: 1em;
 }
-.gallery p{
+
+.gallery p {
     width: 60%;
     font-size: large;
     padding: 1em;
@@ -226,21 +240,23 @@ nav ul li a {
     /* color: #d1caca; */
 }
 
-.gallery button{
+.gallery button {
 
     background-color: #733635;
     border-radius: 2em;
 }
-.gallery button a{
+
+.gallery button a {
     display: flex;
     text-decoration: none;
     justify-self: center;
     font-size: large;
     padding: 1em 3em;
-    
+
     color: #F3F3F3;
 }
-.gallery img{
+
+.gallery img {
     align-self: center;
     flex-wrap: wrap;
     width: 20%;
@@ -254,7 +270,7 @@ nav ul li a {
 
 
 /* Price */
-.price-list{  
+.price-list {
     display: flex;
     flex-direction: column;
     justify-self: center;
@@ -267,84 +283,95 @@ nav ul li a {
     border-radius: 2em;
     color: #dbc6c6;
 }
-.price-list h2{
+
+.price-list h2 {
     font-size: 3em;
     align-self: center;
     color: #F3F3F3;
     padding: 1em;
 }
-.price-list p{
+
+.price-list p {
     font-size: x-large;
     color: #d1caca;
     padding: 1em;
 }
 
-footer{
+footer {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     flex-direction: column;
     padding: 3em;
-    flex: 1 1 0 ;
-    background-color:#443c3c;
+    flex: 1 1 0;
+    background-color: #443c3c;
     justify-content: space-evenly;
 }
 
-footer p{
+footer p {
     font-size: large;
     padding: 6px;
     color: solid #3E3330;
 }
-footer a{
+
+footer a {
     font-size: large;
     color: #410909e7;
     text-decoration: none;
 }
 
-@media  (max-width: 768px){
+@media (max-width: 768px) {
     nav {
 
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    nav  li {
-        margin: 0.5em ;
-        
+
+    nav li {
+        margin: 0.5em;
+
     }
-    .introduction{
+
+    .introduction {
         padding: 1em;
     }
-    .introduction h1{
+
+    .introduction h1 {
         font-size: 3em;
     }
-    .gallery{
+
+    .gallery {
         flex-direction: column;
     }
-    .gallery img{
+
+    .gallery img {
         width: 60%;
         height: 100%;
     }
-    .gallery p{
+
+    .gallery p {
         width: 100%;
     }
-    .gallery h2{
+
+    .gallery h2 {
         font-size: 2em;
     }
-    .gallery button{
+
+    .gallery button {
         padding: 1em;
     }
 
-    footer{
+    footer {
         padding: 1.5em;
     }
-    footer p{
+
+    footer p {
         text-align: left;
     }
-    footer a{
+
+    footer a {
         font-size: medium;
     }
-    
+
 }
-
-
