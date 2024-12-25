@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 17px;
+    
 }
 main {
     background-color: #a5a5a5;
+    
 }
 
 nav {
@@ -99,7 +101,7 @@ nav ul li a {
 
 .about-us{
     display: flex;
-
+    width: 50%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -109,6 +111,17 @@ nav ul li a {
     border: 1em solid #733635;
     border-radius: 2em;
     color: #dbc6c6;
+}
+.about-us h2{
+    font-size: 3em;
+    align-self: center;
+    color: #F3F3F3;
+    padding: 1em;
+}
+.about-us p{
+    font-size: x-large;
+    color: #d1caca;
+    padding: 1em;
 }
 
 .services{
