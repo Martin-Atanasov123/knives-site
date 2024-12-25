@@ -129,8 +129,11 @@ main {
     align-self: center;
     height: 200px;
     margin: 1em;
-    border-radius: 1em;
-    border: 7px solid #BC8F8F;
+    /* border-radius: 1em; */
+    padding: 1em;
+    border-left: 7px solid #BC8F8F;
+    border-right: 7px solid #BC8F8F;
+
 }
 
 
