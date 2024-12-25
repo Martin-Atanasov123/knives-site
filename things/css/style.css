@@ -151,23 +151,37 @@ nav ul li a {
     color: #d1caca;
     padding: 1em;
 }
+
+
 .services-images{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 }
+.services-info{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.services-info h3{
+    font-size: 1.em;
+    color: #F3F3F3;
+    text-align: center;
 
-.services img{
+}
+.services-info img{
     display: flex;
     align-self: center;
     height: 200px;
-    margin: 2em;
-    /* border-radius: 1em; */
+
     padding: 1em;
     border-left: 7px solid #BC8F8F;
-    border-right: 7px solid #BC8F8F;
 
 }
+#last{
+    
+    border-right: 7px solid #BC8F8F;
+}
+
 
 
 
