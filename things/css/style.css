@@ -85,11 +85,13 @@ main {
 .introduction p{
     text-align:justify;
     font-size: 1.5em;
-    color: #eccfcf;
-    background-color:#8d7676a6;
-    border: 5px solid #733635;
+    color: #e2dbdb;
+    /* background-color:#8d7676a6; */
+    /* border: 5px solid #733635; */
     padding: 1em;
-    border-radius: 2em;
+    /* border-radius: 2em; */
+
+    border-top: 5px solid #fff4f1;
     font-size: x-large;
     margin-bottom: 1.5em;
 }
