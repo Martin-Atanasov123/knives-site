@@ -133,14 +133,15 @@ nav ul li a {
 
 .about-us {
     display: flex;
-    width: 50%;
+    width: 60%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1em;
+    box-shadow: 15px 10px 10px 10px #2e2d2d;
     border: 1em solid #733635;
     border-radius: 2em;
     margin: 8em auto;
+    padding: 1em;
     background-color: rgba(255, 255, 255, 0.623); /* Add background to make text readable */
 }
 
