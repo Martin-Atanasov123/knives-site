@@ -8,6 +8,8 @@
 
 main {
     background-color: #a5a5a5;
+    background-color: #FFFFFF;
+
     height: auto;
 }
 
@@ -111,6 +113,7 @@ nav ul li a {
 .about-us {
     display: flex;
     width: 50%;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -133,6 +136,13 @@ nav ul li a {
     font-size: x-large;
     color: #d1caca;
     padding: 1em;
+}
+#nz{
+    height: 600px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .services {
