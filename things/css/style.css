@@ -76,6 +76,7 @@ nav ul li a {
 .introduction {
     width: 100%;
     display: flex;
+    min-height: 100vh;
     flex-direction: column;
     padding: 3em 10em;
     justify-content: center;
@@ -95,18 +96,13 @@ nav ul li a {
     margin: 3em;
 }
 
-.introduction p {
-    text-align: justify;
-    font-size: 1.5em;
-    color: #e2dbdb;
-    /* background-color:#8d7676a6; */
-    /* border: 5px solid #733635; */
-    padding: 1em;
-    /* border-radius: 2em; */
-
-    border-top: 5px solid #fff4f1;
+.introduction a {
+    border: 3px solid #F3F3F3;
+    border-radius: 5px;
+    padding: 1em 3em;
     font-size: x-large;
-    margin-bottom: 1.5em;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 
