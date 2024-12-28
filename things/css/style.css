@@ -74,16 +74,15 @@ nav ul li a {
 
 
 .introduction {
-    width: 100%;
     display: flex;
-    min-height: 100vh;
     flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
     padding: 3em 10em;
     justify-content: center;
     align-items: center;
     border-top: 5px solid;
     border-bottom: 2px solid;
-    margin-bottom: 1em;
     background-image: url(/things/images/main\ cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,32 +104,40 @@ nav ul li a {
     text-decoration: none;
 }
 
+#section2{
+    display: flex;
+    background-image: url(/things/images/about\ us\ BACK.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
 
 .about-us {
     display: flex;
     width: 50%;
-
+    margin: 8em auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1em;
-    margin: 1em;
-    background-color: #353535;
+    background-color: #d3d0d0;
     border: 1em solid #733635;
     border-radius: 2em;
-    color: #dbc6c6;
+
 }
 
 .about-us h2 {
     font-size: 3em;
     align-self: center;
-    color: #F3F3F3;
+    color: #4e4040;
     padding: 1em;
 }
 
 .about-us p {
     font-size: x-large;
-    color: #d1caca;
+    color: #645353;
     padding: 1em;
 }
 #nz{
