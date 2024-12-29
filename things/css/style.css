@@ -206,11 +206,40 @@ nav ul li a {
 }
 
 
-.services-images {
+
+/* slideshow*/
+.sliding-text {
+    overflow: hidden;
+    width: auto; /* Adjust width as needed */
+    height: auto; /* Adjust height as needed */
+    position: relative;
+    border: 2px solid #333;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
 }
+
+.sliding-text .text-wrapper {
+    display: flex;
+    width: calc(300px *2); /* Adjust for the number of options */
+    animation: slide-horizontal 30s ease-in-out infinite;
+}
+
+.sliding-text div {
+    flex: 0 0 300px; /* Matches the container width */
+    text-align: center;
+}
+
+@keyframes slide-horizontal {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-300px); }
+    40% { transform: translateX(-600px); }
+    60% { transform: translateX(-900px); }
+    80% { transform: translateX(-600px); }
+    90% { transform: translateX(-300px); }
+    100% { transform: translateX(0); }
+}
+/* slideshow */
+
 
 .services-info {
     display: flex;
