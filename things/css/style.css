@@ -417,12 +417,18 @@ footer {
     padding: 4px;
 }
 
-#creator  {
+#creator, #creator p{
+    display: flex;
+    justify-content: center;
+    background-color: #504c4c;
     font-size: large;
-    color: #410909e7;
+    padding: 5px;
     text-decoration: none;
 }
-
+#creator a{
+    color: #442020;
+    text-decoration: none;
+}
 .mobile-menu {
     display: none;
 }
