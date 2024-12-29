@@ -15,7 +15,7 @@ document.querySelectorAll('nav a').forEach(anchor => {
 });
 
 
-
+ 
 
 const translations = {
     bg: {
