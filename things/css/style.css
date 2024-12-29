@@ -371,24 +371,35 @@ nav ul li a {
 
 footer {
     display: flex;
-    flex-wrap: wrap;
     text-align: center;
-    flex-direction: column;
-    padding: 3em;
-    flex: 1 1 0;
+    padding: 3em ;
+    justify-content: center;
     background-color: #443c3c;
-    justify-content: space-evenly;
 }
 
 footer p {
     font-size: large;
     padding: 6px;
+    text-align: left;
+
     color: solid #3E3330;
 }
 
-footer a {
+.contact a {
     font-size: large;
     color: #410909e7;
+    text-decoration: none;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #443c3c;
+    padding: 1em;
+}
+.navigation a{
+    font-size: large;
+    color: #F3F3F3;
     text-decoration: none;
 }
 
