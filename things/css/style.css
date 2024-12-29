@@ -372,12 +372,13 @@ nav ul li a {
 footer {
     display: flex;
     text-align: center;
-    padding: 3em ;
+    padding: 2em ;
     justify-content: center;
+
     background-color: #443c3c;
 }
 
-footer p {
+.contact p {
     font-size: large;
     padding: 6px;
     text-align: left;
@@ -385,11 +386,8 @@ footer p {
     color: solid #3E3330;
 }
 
-.contact a {
-    font-size: large;
-    color: #410909e7;
-    text-decoration: none;
-}
+
+
 .navigation{
     display: flex;
     align-items: center;
@@ -399,7 +397,29 @@ footer p {
 }
 .navigation a{
     font-size: large;
+    text-decoration: none;
     color: #F3F3F3;
+    padding: 4px;
+}
+
+
+.Social{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #443c3c;
+    padding: 1em;
+}
+.Social a{
+    font-size: large;
+    text-decoration: none;
+    color: #F3F3F3;
+    padding: 4px;
+}
+
+#creator  {
+    font-size: large;
+    color: #410909e7;
     text-decoration: none;
 }
 
