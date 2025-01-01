@@ -39,7 +39,7 @@ const translations = {
         button: "Change Language",
 
         title: "Precision and Quality in Every Sharpening",
-        aboutUs: "About Us",
+        aboutUs: "About us",
         description: "We are professional sharpeners who take care of your tools and knives with attention and precision.With many years of experience in the craft, our mission is to provide every customer with perfectly sharpened tools that work like new.Whether it’s household knives, professional tools, or specialized blades, you can trust us. We use only the highest quality methods and materials to ensure long-lasting and reliable results.",
 
         services:"Services",

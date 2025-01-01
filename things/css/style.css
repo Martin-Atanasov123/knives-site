@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 17px;
-
+    font-size: large;
 }
 
 main {
@@ -222,7 +221,7 @@ nav ul li a {
     color: #d1caca;
     padding: 1em;
 }
-.services ol {
+.services ul {
     display: flex;
     flex-direction: column;
     font-size: x-large;
@@ -230,7 +229,7 @@ nav ul li a {
     padding: 1em;
 }
 
-.services ol li {
+.services ul li {
     padding: 5px;
 }
 
@@ -367,17 +366,62 @@ footer {
     display: flex;
     text-align: center;
     padding: 2em ;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 
-    background-color: #443c3c;
+    background-color: #2e2c2c;
+    
+
+}
+footer h2{
+    font-size: 2em;
+    color: #dfd8d8;
+
+    padding: 1em;
 }
 
-.contact p {
+footer section{
+    display: flex;
+    justify-content: center;    
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1em;
+    
+}
+
+.Social{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2em;
+    margin: 1em;
+    padding: 1em;
+}
+.Social a{
     font-size: large;
+    text-decoration: none;
+    color: #F3F3F3;
+    padding: 4px;
+}
+
+
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1em;
+
+    background-color: #504c4c;
+    border-radius: 2em;
+    margin: 1em;
+}
+.contact p {
     padding: 6px;
     text-align: left;
 
-    color: solid #3E3330;
+    color: #F3F3F3;
+
 }
 
 
@@ -386,7 +430,7 @@ footer {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #443c3c;
+
     padding: 1em;
 }
 .navigation a{
@@ -397,25 +441,13 @@ footer {
 }
 
 
-.Social{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #443c3c;
-    padding: 1em;
-}
-.Social a{
-    font-size: large;
-    text-decoration: none;
-    color: #F3F3F3;
-    padding: 4px;
-}
 
 #creator, #creator p{
     display: flex;
     justify-content: center;
     background-color: #504c4c;
     font-size: large;
+    
     padding: 5px;
     text-decoration: none;
 }
