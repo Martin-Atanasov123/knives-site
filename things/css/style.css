@@ -192,6 +192,18 @@ nav ul li a {
 }
 
 
+
+
+.services section{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 1em;
+
+}
+
+
 .services h2 {
     font-size: 3em;
     align-self: center;
@@ -203,6 +215,17 @@ nav ul li a {
     font-size: x-large;
     color: #d1caca;
     padding: 1em;
+}
+.services ol {
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    color: #d1caca;
+    padding: 1em;
+}
+
+.services ol li {
+    padding: 5px;
 }
 
 
