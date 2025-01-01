@@ -35,23 +35,13 @@ nav img {
     border-radius: 2em;
 }
 
-nav>a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60px;
-    height: 60px;
-    border-radius: 2.5em;
-}
-
 
 
 #language-toggle {
     display: flex;
     align-self: center;
     font-weight: bold;
-
-    font-size: large;
+    ;
     padding: 9px;
     border-radius: 2em;
     background-color: #a5a5a5;
@@ -108,7 +98,7 @@ nav ul li a {
     font-size: x-large;
     color: #ffffff;
     text-decoration: none;
-    
+
 }
 
 #section2 {
@@ -149,7 +139,8 @@ nav ul li a {
     border-radius: 2em;
     margin: 8em auto;
     padding: 1em;
-    background-color: rgba(255, 255, 255, 0.623); /* Add background to make text readable */
+    background-color: rgba(255, 255, 255, 0.623);
+    /* Add background to make text readable */
 }
 
 .about-us h2 {
@@ -164,7 +155,8 @@ nav ul li a {
     color: #645353;
     padding: 1em;
 }
-#nz{
+
+#nz {
     height: 600px;
     width: 400px;
     background-repeat: no-repeat;
@@ -175,7 +167,7 @@ nav ul li a {
 
 
 
-#section3{
+#section3 {
 
     background-color: #494949;
 
@@ -184,6 +176,7 @@ nav ul li a {
 
 
 }
+
 .services {
     display: flex;
     justify-content: center;
@@ -200,7 +193,7 @@ nav ul li a {
 
 
 
-.services section{
+.services section {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -222,6 +215,7 @@ nav ul li a {
     color: #d1caca;
     padding: 1em;
 }
+
 .services ul {
     display: flex;
     flex-direction: column;
@@ -236,8 +230,19 @@ nav ul li a {
 
 
 
+#section5,
+#section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/things/images/sirisvisual-4p8Rxlpli5w-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
-
+    padding: 9em;
+    width: 100%;
+}
 
 
 
@@ -262,12 +267,14 @@ nav ul li a {
     align-items: center;
 
 }
-.column-container h2{
+
+.column-container h2 {
     font-size: 3em;
     color: #F3F3F3;
     padding: 1em;
 }
-.column-container p{
+
+.column-container p {
     width: 60%;
     font-size: large;
     padding: 1em;
@@ -280,7 +287,7 @@ nav ul li a {
     border-radius: 2em;
 }
 
-.column-container button a{
+.column-container button a {
     display: flex;
     text-decoration: none;
     justify-self: center;
@@ -294,11 +301,25 @@ nav ul li a {
 /* slideshow*/
 
 @keyframes slide-horizontal {
-    0% { transform: translateX(0); }
-    20% { transform: translateX(-300px); }
-    40% { transform: translateX(-600px); }
-    60% { transform: translateX(-300px); }
-    80% { transform: translateX(0); }
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-300px);
+    }
+
+    40% {
+        transform: translateX(-600px);
+    }
+
+    60% {
+        transform: translateX(-300px);
+    }
+
+    80% {
+        transform: translateX(0);
+    }
 }
 
 /* slideshow */
@@ -311,19 +332,23 @@ nav ul li a {
     position: relative;
     align-items: center;
 
-    width: 300px; /* Adjust for the number of options */
+    width: 300px;
+    /* Adjust for the number of options */
 }
 
 .sliding-img .img-wrapper {
     display: flex;
-    width: calc(300px ); /* Adjust for the number of options */
+    width: calc(300px);
+    /* Adjust for the number of options */
     animation: slide-horizontal 30s ease-in-out infinite;
 }
 
 .sliding-img div {
-    flex: 0 0 300px; /* Matches the container width */
+    flex: 0 0 300px;
+    /* Matches the container width */
 
 }
+
 .services-info img {
     display: flex;
     align-self: center;
@@ -366,31 +391,32 @@ nav ul li a {
 footer {
     display: flex;
     text-align: center;
-    padding: 2em ;
+    padding: 2em;
     justify-content: space-around;
     align-items: center;
 
     background-color: #2e2c2c;
-    
+
 
 }
-footer h2{
+
+footer h2 {
     font-size: 2em;
     color: #dfd8d8;
 
     padding: 1em;
 }
 
-footer section{
+footer section {
     display: flex;
-    justify-content: center;    
+    justify-content: center;
     flex-direction: row;
     align-items: flex-start;
     padding: 1em;
-    
+
 }
 
-.Social{
+.Social {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -398,7 +424,8 @@ footer section{
     margin: 1em;
     padding: 1em;
 }
-.Social a{
+
+.Social a {
     font-size: large;
     text-decoration: none;
     color: #F3F3F3;
@@ -406,7 +433,7 @@ footer section{
 }
 
 
-.contact{
+.contact {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -417,6 +444,7 @@ footer section{
     border-radius: 2em;
     margin: 1em;
 }
+
 .contact p {
     padding: 6px;
     text-align: left;
@@ -427,14 +455,15 @@ footer section{
 
 
 
-.navigation{
+.navigation {
     display: flex;
     align-items: center;
     flex-direction: column;
 
     padding: 1em;
 }
-.navigation a{
+
+.navigation a {
     font-size: large;
     text-decoration: none;
     color: #F3F3F3;
@@ -443,19 +472,21 @@ footer section{
 
 
 
-#creator, #creator p{
+#creator,
+#creator p {
     display: flex;
     justify-content: center;
     background-color: #504c4c;
     font-size: large;
-    
     padding: 5px;
     text-decoration: none;
 }
-#creator a{
+
+#creator a {
     color: #442020;
     text-decoration: none;
 }
+
 .mobile-menu {
     display: none;
 }
@@ -480,7 +511,7 @@ footer section{
 
     .hamburger-menu {
         --x-width: calc(var(--hamburger-height) * 1.41421356237);
-        
+
         display: flex;
         flex-direction: column;
         gap: var(--hamburger-gap);
@@ -495,7 +526,7 @@ footer section{
     .hamburger-menu:has(input:checked) {
         --foreground: white;
         --background: #333;
-        
+
     }
 
     .hamburger-menu:has(input:focus-visible)::before,
@@ -511,7 +542,7 @@ footer section{
         content: "";
         width: var(--bar-width);
         height: var(--bar-height);
-        
+
         background-color: var(--foreground);
         border-radius: 9999px;
         transform-origin: left center;
@@ -558,8 +589,9 @@ footer section{
 
     .hamburger-menu:has(input:checked)+.sidebar {
         translate: 0;
-        
+
     }
+
     .sidebar nav {
         display: flex;
         flex-direction: column;
