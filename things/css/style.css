@@ -411,6 +411,7 @@ footer section {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    
     align-items: flex-start;
     padding: 1em;
 
