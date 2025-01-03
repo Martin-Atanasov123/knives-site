@@ -85,7 +85,9 @@ nav ul li a {
 }
 
 .introduction h1 {
-    font-size: 3.7em;
+    font-size: 3.9em;
+    text-wrap: nowrap;
+    text-shadow: 3px 10px 10px#000000;
     color: #f5eaea;
     margin: 3em;
 
@@ -156,13 +158,6 @@ nav ul li a {
     padding: 1em;
 }
 
-#nz {
-    height: 600px;
-    width: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
 
 
@@ -170,6 +165,8 @@ nav ul li a {
 #section3 {
 
     background-color: #494949;
+    border-top: 3px solid #000000;
+    border-bottom: 3px solid #000000;
 
     padding: 9em;
     width: 100%;
@@ -255,7 +252,6 @@ nav ul li a {
     border-radius: 35px;
     border: 1em solid #733635;
     background-color: #905D5D;
-    width: 90%;
     padding: 2em;
     margin: 1em;
 }
@@ -276,7 +272,7 @@ nav ul li a {
 }
 
 .column-container p {
-    width: 60%;
+    width: 80%;
     font-size: large;
     padding: 1em;
     color: #d1caca;
@@ -366,7 +362,6 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     justify-self: center;
-    width: 90%;
     padding: 1em;
     margin: 1em;
     justify-content: center;
