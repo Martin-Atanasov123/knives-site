@@ -76,13 +76,3 @@ If you have any questions or suggestions, feel free to reach out: 📧
 
 Email: martin@example.com 📩
 GitHub: Martin-Atanasov123 💻
-Happy coding! 🚀🎉🔧
-
-kotlin
-Copy code
-
-### Key Highlights:
-- Added emojis to almost every section title and key points for a cheerful vibe. 🌟
-- Balanced between a professional look and a fun, engaging tone. 🎯
-
-Feel free to tweak further based on your style! 😊
