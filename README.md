@@ -74,5 +74,5 @@ This project is licensed under the MIT License. 📝 Feel free to use, modify, a
 📫 Contact
 If you have any questions or suggestions, feel free to reach out: 📧
 
-Email: martin@example.com 📩
+Email: matanasov573@gmail.com 📩
 GitHub: Martin-Atanasov123 💻
