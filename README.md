@@ -6,7 +6,7 @@ Welcome to the **Knives Site** repository! 🖥️ This project is a visually ca
 
 ## 🚀 Features
 - **🔪 Dynamic Product Listings**: Showcase knives with detailed descriptions and images.
-- **📱 Responsive Design**: Fully optimized for desktops, tablets, and mobile devices.
+- **📱 Responsive Design**: Fully optimized for desktops, tablets, and soon for  mobile devices.
 - **🧭 User-Friendly Navigation**: Smooth and intuitive user interface.
 - **🎨 Modern Aesthetics**: Designed with cutting-edge web design trends in mind.
 - **⚙️ Customization Ready**: Easily update and expand content.
