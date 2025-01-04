@@ -78,7 +78,7 @@ nav ul li a {
     align-items: center;
 
     border-bottom: 2px solid;
-    background-image: url(/things/images/main\ cover.jpg);
+    background-image: url("/things/images/main\ cover.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
