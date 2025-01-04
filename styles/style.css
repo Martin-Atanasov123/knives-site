@@ -78,7 +78,7 @@ nav ul li a {
     align-items: center;
 
     border-bottom: 2px solid;
-    background-image: url("/things/images/main\ cover.jpg");
+    background-image: url("/images/main\ cover.jpg ");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -105,7 +105,7 @@ nav ul li a {
 
 #section2 {
     display: flex;
-    background-image: url(/things/images/services.jpg);
+    background-image: url(/images/services.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -233,7 +233,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/things/images/sirisvisual-4p8Rxlpli5w-unsplash.jpg);
+    background-image: url(/images/sirisvisual-4p8Rxlpli5w-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
