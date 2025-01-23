@@ -78,7 +78,7 @@ nav ul li a {
     align-items: center;
 
     border-bottom: 2px solid;
-    background-image: url("/images/main\ cover.jpg ");
+    background-image: url(/images/main\ cover.jpg );
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -142,7 +142,6 @@ nav ul li a {
     margin: 8em auto;
     padding: 1em;
     background-color: rgba(255, 255, 255, 0.623);
-    /* Add background to make text readable */
 }
 
 .about-us h2 {
